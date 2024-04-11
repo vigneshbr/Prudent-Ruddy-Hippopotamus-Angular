@@ -18,9 +18,9 @@ export class SuccessMessageModal {
   heading: string = 'Success'
   @Input()
   successMessage: string = ''
-  rawmdu7: string = ' '
-  rawwvb5: string = ' '
-  raw7ao6: string = ' '
-  raw28k2: string = ' '
+  rawtn50: string = ' '
+  raw52w2: string = ' '
+  raw17xt: string = ' '
+  raw9war: string = ' '
   constructor() {}
 }

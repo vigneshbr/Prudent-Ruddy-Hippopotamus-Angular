@@ -12,9 +12,9 @@ export class LoadingOverlay {
   button1: string = 'Learn More'
   @Input()
   button: string = 'Get Started'
-  rawtal2: string = ' '
-  rawcv5z: string = ' '
-  rawo005: string = ' '
-  rawnvrn: string = ' '
+  raw1qxr: string = ' '
+  rawtr8q: string = ' '
+  rawgedm: string = ' '
+  rawte7m: string = ' '
   constructor() {}
 }

@@ -16,9 +16,9 @@ export class WarningMessageModal {
   title: string = 'Please Note!'
   @Input()
   submitButton: string = 'Submit'
-  rawy3ka: string = ' '
-  raw04e3: string = ' '
-  rawquj0: string = ' '
-  raws49m: string = ' '
+  rawioeb: string = ' '
+  raw5jvl: string = ' '
+  raw35b3: string = ' '
+  rawcuab: string = ' '
   constructor() {}
 }
