@@ -1,0 +1,49 @@
+<div id="login-modal" class="login-modal-gallery-card"
+  ><div class="login-modal-container"
+    ><div class="login-modal-blog-post-card"
+      ><img
+        [attr.alt]="imageAlt1"
+        [attr.src]="imageSrc1"
+        class="login-modal-image"
+      /><div class="login-modal-container1"
+        ><div class="login-modal-container2"
+          ><h1 for="username" class="login-modal-text">{{ loginGreetings }}</h1
+          ><svg
+            id="loginModal-close-icon"
+            viewBox="0 0 1024 1024"
+            class="login-modal-icon"
+          >
+            <path
+              d="M671.429 754.857l83.429-83.429c7.429-7.429 7.429-18.857 0-26.286l-133.143-133.143 133.143-133.143c7.429-7.429 7.429-18.857 0-26.286l-83.429-83.429c-7.429-7.429-18.857-7.429-26.286 0l-133.143 133.143-133.143-133.143c-7.429-7.429-18.857-7.429-26.286 0l-83.429 83.429c-7.429 7.429-7.429 18.857 0 26.286l133.143 133.143-133.143 133.143c-7.429 7.429-7.429 18.857 0 26.286l83.429 83.429c7.429 7.429 18.857 7.429 26.286 0l133.143-133.143 133.143 133.143c7.429 7.429 18.857 7.429 26.286 0zM1024 164.571v694.857c0 50.286-41.143 91.429-91.429 91.429h-841.143c-50.286 0-91.429-41.143-91.429-91.429v-694.857c0-50.286 41.143-91.429 91.429-91.429h841.143c50.286 0 91.429 41.143 91.429 91.429z"
+            ></path></svg></div
+        ><div class="login-modal-container3"
+          ><label for="username" class="login-modal-text1"
+            >{{ loginUsername2 }}</label
+          ><input
+            type="email"
+            id="username"
+            [attr.placeholder]="textinputPlaceholder2"
+            class="login-modal-textinput input"
+          /><span id="usernameWarning" class="login-modal-text2"
+            >{{ loginUsernameWarning1 }}</span
+          ></div
+        ><div class="login-modal-container4"
+          ><label for="password" class="login-modal-text3"
+            >{{ loginUsername1 }}</label
+          ><input
+            type="password"
+            id="password"
+            [attr.placeholder]="textinputPlaceholder1"
+            class="login-modal-textinput1 input"
+          /><span id="passwordWarning" class="login-modal-text4"
+            >{{ loginPasswordWarning }}</span
+          ></div
+        ><div class="login-modal-container5"
+          ><button type="submit" class="login-modal-button button"
+            >{{ loginButton }}</button
+          ><span class="login-modal-text5">{{ author }}</span></div
+        ></div
+      ></div
+    ></div
+  ></div
+>

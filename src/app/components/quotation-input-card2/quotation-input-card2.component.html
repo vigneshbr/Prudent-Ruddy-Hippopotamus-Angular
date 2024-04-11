@@ -1,0 +1,163 @@
+<div class="quotation-input-card2-blog-post-card"
+  ><div class="quotation-input-card2-container"
+    ><span class="quotation-input-card2-text">{{ label41 }}</span
+    ><label for="companyName" class="quotation-input-card2-text01"
+      >{{ text4 }}</label
+    ><div class="quotation-input-card2-container01"
+      ><div
+        id="tankType"
+        (click)="tankTypeToggle = 1"
+        class="quotation-input-card2-container02"
+        ><input
+          type="radio"
+          id="Standard Volume Tank"
+          name="radio"
+          value="Standard Volume Tank"
+          checked="true"
+          required="true"
+          (click)="tankTypeToggle = 1"
+          class="quotation-input-card2-radiobutton"
+        /><h1 (click)="tankTypeToggle = 1" class="quotation-input-card2-text02"
+          >{{ tankStandard1 }}</h1
+        ></div
+      ><div
+        id="tankType"
+        (click)="tankTypeToggle = 2"
+        class="quotation-input-card2-container03"
+        ><input
+          type="radio"
+          id="Bespoke Volume Tank"
+          name="radio"
+          value="Bespoke Volume Tank"
+          (click)="tankTypeToggle = 2"
+          class="quotation-input-card2-radiobutton1"
+        /><h1 (click)="tankTypeToggle = 2" class="quotation-input-card2-text03"
+          >{{ tankBespoke1 }}</h1
+        ></div
+      ></div
+    ><div *ngIf="tankTypeToggle === 1" class="quotation-input-card2-container04"
+      ><span class="quotation-input-card2-text04">{{ label112 }}</span
+      ><div class="quotation-input-card2-container05"
+        ><div class="quotation-input-card2-container06"
+          ><label for="tankVolume" class="quotation-input-card2-text05"
+            >{{ lableTankVolume11 }}</label
+          ><select
+            id="tankVolume"
+            required="true"
+            class="quotation-input-card2-select"
+            ><option value="Option 1">Option 1</option
+            ><option id="300L" value="300 Ltr">300 Ltr</option
+            ><option id="500L" value="500 Ltr">500 Ltr</option
+            ><option value="Option 2">Option 2</option
+            ><option value="Option 3">Option 3</option
+            ><option id="750L" value="750 Ltr">750 Ltr</option
+            ><option id="1000L" value="1,000 Ltr">1,000 Ltr</option
+            ><option id="1500L" value="1,500 Ltr">1,500 Ltr</option
+            ><option id="2000L" value="2,000 Ltr">2,000 Ltr</option
+            ><option id="2500L" value="2,500 Ltr">2,500 Ltr</option
+            ><option id="3000L" value="3,000 Ltr">3,000 Ltr</option
+            ><option id="4000L" value="4,000 Ltr">4,000 Ltr</option
+            ><option id="5000L" value="5,000 Ltr">5,000 Ltr</option
+            ><option id="6500L" value="6,500 Ltr">6,500 Ltr</option
+            ><option id="8000L" value="8,000 Ltr">8,000 Ltr</option
+            ><option id="10000L" value="10,000 Ltr">10,000 Ltr</option
+            ><option id="15000L" value="15,000 Ltr">15,000 Ltr</option
+            ><option id="17500L" value="17,500 Ltr">17,500 Ltr</option
+            ><option id="20000L" value="20,000 Ltr">20,000 Ltr</option
+            ><option id="30000L" value="30,000 Ltr">30,000 Ltr</option
+            ><option id="40000L" value="40,000 Ltr">40,000 Ltr</option
+            ><option id="50000L" value="50,000 Ltr">50,000 Ltr</option
+            ><option id="80000L" value="80,000 Ltr">80,000 Ltr</option
+            ><option id="100000L" value="100,000 Ltr">100,000 Ltr</option
+            ><option id="200000L" value="200,000 Ltr">200,000 Ltr</option
+            ><option id="300000L" value="300,000 Ltr"
+              >300,000 Ltr</option
+            ></select
+          ></div
+        ><div class="quotation-input-card2-container07"
+          ><label
+            for="standardDiameter-display"
+            class="quotation-input-card2-text06"
+            >{{ lableUninsulatedDiameter1 }}</label
+          ><span
+            id="standardDiameter-display"
+            class="quotation-input-card2-text07"
+            >{{ displayUninsulatedDiameter1 }}</span
+          ></div
+        ><div class="quotation-input-card2-container08"
+          ><label
+            for="standardHeight-display"
+            class="quotation-input-card2-text08"
+            >{{ lableApproximateHeight1 }}</label
+          ><span
+            id="standardHeight-display"
+            class="quotation-input-card2-text09"
+            >{{ displayApproximateHeight1 }}</span
+          ></div
+        ></div
+      ></div
+    ><div *ngIf="tankTypeToggle === 2" class="quotation-input-card2-container09"
+      ><span class="quotation-input-card2-text10">{{ label1111 }}</span
+      ><div class="quotation-input-card2-container10"
+        ><div class="quotation-input-card2-container11"
+          ><label for="bespokeDiameter" class="quotation-input-card2-text11"
+            >{{ lableBespokeUninsulatedDiameter1 }}</label
+          ><select
+            id="bespokeDiameter"
+            required="true"
+            class="quotation-input-card2-select1"
+            ><option value="Option 1">Option 1</option
+            ><option value="Option 2">Option 2</option
+            ><option value="Option 3">Option 3</option
+            ><option>Select Diameter</option
+            ><option id="500" value="500">500</option
+            ><option id="600" value="600">600</option
+            ><option id="750" value="750">750</option
+            ><option id="800" value="800">800</option
+            ><option id="850" value="850">850</option
+            ><option id="900" value="900">900</option
+            ><option id="950" value="950">950</option
+            ><option id="1000" value="1000">1000</option
+            ><option id="1050" value="1050">1050</option
+            ><option id="1100" value="1100">1100</option
+            ><option id="1200" value="1200">1200</option
+            ><option id="1300" value="1300">1300</option
+            ><option id="1400" value="1400">1400</option
+            ><option id="1500" value="1500">1500</option
+            ><option id="1600" value="1600">1600</option
+            ><option id="1700" value="1700">1700</option
+            ><option id="1800" value="1800">1800</option
+            ><option id="1900" value="1900">1900</option
+            ><option id="2000" value="2000">2000</option
+            ><option id="2100" value="2100">2100</option
+            ><option id="2200" value="2200">2200</option
+            ><option id="2300" value="2300">2300</option
+            ><option id="2400" value="2400">2400</option
+            ><option id="2500" value="2500">2500</option
+            ><option id="2600" value="2600">2600</option
+            ><option id="2750" value="2750">2750</option
+            ><option id="3000" value="3000">3000</option
+            ><option id="3250" value="3250">3250</option
+            ><option id="3500" value="3500">3500</option
+            ><option id="3750" value="3750">3750</option
+            ><option id="4000" value="4000">4000</option
+            ><option id="4250" value="4250">4250</option
+            ><option id="4500" value="4500">4500</option
+            ><option id="4750" value="4750">4750</option
+            ><option id="5000" value="5000">5000</option
+            ><option id="5250" value="5250">5250</option
+            ><option id="5500" value="5500">5500</option
+            ><option id="5750" value="5750">5750</option
+            ><option id="6000" value="6000">6000</option></select
+          ></div
+        ><div class="quotation-input-card2-container12"
+          ><label for="bespokeHeight" class="quotation-input-card2-text12"
+            >{{ lableBespokeHeight1 }}</label
+          ><input
+            type="number"
+            id="bespokeHeight"
+            min="0"
+            required="true"
+            [attr.placeholder]="inputBespokeHeight1"
+            class="quotation-input-card2-textinput input" /></div></div></div></div
+></div>

@@ -1,0 +1,288 @@
+:host { 
+  display: contents; 
+}
+.quotation-input-card4-blog-post-card {
+  width: 100%;
+  display: flex;
+  overflow: hidden;
+  max-width: var(--dl-size-size-maxwidth);
+  box-shadow: 5px 5px 10px 0px rgba(18, 18, 18, 0.1);
+  transition: 0.3s;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.quotation-input-card4-blog-post-card:hover {
+  transform: scale(1.02);
+}
+.quotation-input-card4-container {
+  flex: 0 0 auto;
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-self: center;
+  border-color: var(--dl-color-gray-900);
+  border-width: 1px;
+  flex-direction: column;
+}
+.quotation-input-card4-text {
+  color: var(--dl-color-gray-500);
+  font-weight: 700;
+  margin-bottom: var(--dl-space-space-halfunit);
+  text-transform: uppercase;
+}
+.quotation-input-card4-container1 {
+  flex: 0 0 auto;
+  height: auto;
+  display: flex;
+  align-self: stretch;
+  align-items: flex-end;
+  margin-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.quotation-input-card4-container2 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: flex-start;
+}
+.quotation-input-card4-text1 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.quotation-input-card4-select {
+  width: 100%;
+  min-height: var(--dl-size-size-small);
+  padding-top: 0.5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  padding-left: 1rem;
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: 1rem;
+  padding-bottom: 0.5rem;
+}
+.quotation-input-card4-container3 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: flex-start;
+}
+.quotation-input-card4-text2 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.quotation-input-card4-select1 {
+  width: 100%;
+  min-height: var(--dl-size-size-small);
+  padding-top: .5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  padding-left: 1rem;
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: 1rem;
+  padding-bottom: .5rem;
+}
+.quotation-input-card4-container4 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-end;
+  margin-bottom: var(--dl-space-space-twounits);
+  justify-content: space-between;
+}
+.quotation-input-card4-container5 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-halfunit);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: flex-start;
+}
+.quotation-input-card4-text3 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.quotation-input-card4-select2 {
+  width: 100%;
+  min-height: var(--dl-size-size-small);
+  padding-top: .5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  padding-left: 1rem;
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: 1rem;
+  padding-bottom: .5rem;
+}
+.quotation-input-card4-container6 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-halfunit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: flex-start;
+}
+.quotation-input-card4-text4 {
+  font-size: 1.5rem;
+  font-style: normal;
+  font-weight: 300;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.quotation-input-card4-select3 {
+  width: 100%;
+  height: var(--dl-size-size-small);
+  padding-top: .5rem;
+  border-color: var(--dl-color-gray-black);
+  border-width: 1px;
+  padding-left: 1rem;
+  border-radius: var(--dl-radius-radius-radius4);
+  padding-right: 1rem;
+  padding-bottom: .5rem;
+}
+@media(max-width: 1200px) {
+  .quotation-input-card4-blog-post-card {
+    height: 100%;
+  }
+  .quotation-input-card4-container {
+    width: 100%;
+    padding: var(--dl-space-space-twounits);
+  }
+  .quotation-input-card4-container1 {
+    height: auto;
+    align-items: flex-end;
+    margin-bottom: var(--dl-space-space-twounits);
+    justify-content: space-between;
+  }
+  .quotation-input-card4-container2 {
+    width: 100%;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .quotation-input-card4-text1 {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .quotation-input-card4-select {
+    width: 100%;
+    min-height: var(--dl-size-size-small);
+    padding-top: 0.5rem;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    padding-left: 1rem;
+    border-radius: var(--dl-radius-radius-radius4);
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+  }
+  .quotation-input-card4-container3 {
+    width: 100%;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .quotation-input-card4-text2 {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .quotation-input-card4-select1 {
+    width: 100%;
+    min-height: var(--dl-size-size-small);
+    padding-top: 0.5rem;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    padding-left: 1rem;
+    border-radius: var(--dl-radius-radius-radius4);
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+  }
+  .quotation-input-card4-container4 {
+    height: auto;
+    align-items: flex-end;
+    margin-bottom: var(--dl-space-space-twounits);
+    justify-content: space-between;
+  }
+  .quotation-input-card4-container5 {
+    width: 100%;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-halfunit);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .quotation-input-card4-text3 {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .quotation-input-card4-select2 {
+    width: 100%;
+    min-height: var(--dl-size-size-small);
+    padding-top: 0.5rem;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    padding-left: 1rem;
+    border-radius: var(--dl-radius-radius-radius4);
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+  }
+  .quotation-input-card4-container6 {
+    width: 100%;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-halfunit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .quotation-input-card4-text4 {
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 300;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .quotation-input-card4-select3 {
+    width: 100%;
+    min-height: var(--dl-size-size-small);
+    padding-top: 0.5rem;
+    border-color: var(--dl-color-gray-black);
+    border-width: 1px;
+    padding-left: 1rem;
+    border-radius: var(--dl-radius-radius-radius4);
+    padding-right: 1rem;
+    padding-bottom: 0.5rem;
+  }
+}
+@media(max-width: 479px) {
+  .quotation-input-card4-container1 {
+    align-items: flex-end;
+  }
+  .quotation-input-card4-container4 {
+    align-items: flex-end;
+  }
+}

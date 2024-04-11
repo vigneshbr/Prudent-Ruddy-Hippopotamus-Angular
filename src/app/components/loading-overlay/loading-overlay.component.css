@@ -1,0 +1,84 @@
+:host { 
+  display: contents; 
+}
+.loading-overlay-loading-overlay {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-threeunits);
+  position: relative;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  justify-content: center;
+  background-image: linear-gradient(20deg, rgba(93, 93, 93, 0.8) 7.5%, rgba(182, 182, 182, 0.8) 94.47%);
+}
+.loading-overlay-text {
+  color: var(--dl-color-gray-white);
+  font-size: 3rem;
+}
+.loading-overlay-text1 {
+  color: var(--dl-color-gray-white);
+  margin-top: var(--dl-space-space-twounits);
+  margin-bottom: var(--dl-space-space-twounits);
+}
+.loading-overlay-container {
+  width: 130px;
+  height: 123px;
+}
+.loading-overlay-container1 {
+  display: contents;
+}
+@media(max-width: 1200px) {
+  .loading-overlay-loading-overlay {
+    min-height: 100vh;
+    background-image: linear-gradient(20deg, rgba(93, 93, 93, 0.8) 7.5%, rgba(182, 182, 182, 0.8) 94.47%);
+  }
+  .loading-overlay-text {
+    color: var(--dl-color-gray-white);
+  }
+  .loading-overlay-container {
+    width: 120px;
+    height: 123px;
+    align-self: center;
+  }
+}
+@media(max-width: 991px) {
+  .loading-overlay-loading-overlay {
+    flex-direction: column;
+  }
+  .loading-overlay-text {
+    text-align: center;
+  }
+  .loading-overlay-text1 {
+    text-align: center;
+  }
+  .loading-overlay-container {
+    height: 123px;
+  }
+}
+@media(max-width: 767px) {
+  .loading-overlay-loading-overlay {
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .loading-overlay-text {
+    font-size: 2rem;
+  }
+  .loading-overlay-container {
+    width: 123px;
+    height: 123px;
+  }
+}
+@media(max-width: 479px) {
+  .loading-overlay-loading-overlay {
+    width: 100%;
+    padding: var(--dl-space-space-twounits);
+    padding-top: var(--dl-space-space-twounits);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-unit);
+  }
+  .loading-overlay-container {
+    height: 123px;
+  }
+}

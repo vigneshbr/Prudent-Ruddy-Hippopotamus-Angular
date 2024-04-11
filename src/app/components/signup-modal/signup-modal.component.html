@@ -1,0 +1,103 @@
+<div id="signup-modal" class="signup-modal-container"
+  ><div class="signup-modal-container01"
+    ><div class="signup-modal-container02"
+      ><span class="signup-modal-text">{{ label }}</span
+      ><svg
+        id="signUpModal-close-icon"
+        viewBox="0 0 1024 1024"
+        class="signup-modal-icon"
+      >
+        <path
+          d="M671.429 754.857l83.429-83.429c7.429-7.429 7.429-18.857 0-26.286l-133.143-133.143 133.143-133.143c7.429-7.429 7.429-18.857 0-26.286l-83.429-83.429c-7.429-7.429-18.857-7.429-26.286 0l-133.143 133.143-133.143-133.143c-7.429-7.429-18.857-7.429-26.286 0l-83.429 83.429c-7.429 7.429-7.429 18.857 0 26.286l133.143 133.143-133.143 133.143c-7.429 7.429-7.429 18.857 0 26.286l83.429 83.429c7.429 7.429 18.857 7.429 26.286 0l133.143-133.143 133.143 133.143c7.429 7.429 18.857 7.429 26.286 0zM1024 164.571v694.857c0 50.286-41.143 91.429-91.429 91.429h-841.143c-50.286 0-91.429-41.143-91.429-91.429v-694.857c0-50.286 41.143-91.429 91.429-91.429h841.143c50.286 0 91.429 41.143 91.429 91.429z"
+        ></path></svg></div
+    ><h1 class="signup-modal-text01">{{ title }}</h1
+    ><div class="signup-modal-container03"
+      ><div class="signup-modal-container04"
+        ><label for="firstName" class="signup-modal-text02"
+          >{{ signupFirstname }}</label
+        ><input
+          type="text"
+          id="firstName"
+          [attr.placeholder]="textinputPlaceholder"
+          autocomplete="given-name"
+          class="signup-modal-textinput input"
+        /><span id="firstNameWarning" class="signup-modal-text03"
+          >{{ loginUsernameWarning }}</span
+        ></div
+      ><div class="signup-modal-container05"
+        ><label for="lastName" class="signup-modal-text04"
+          >{{ signupLastname }}</label
+        ><input
+          type="text"
+          id="lastName"
+          [attr.placeholder]="textinputPlaceholder2"
+          autocomplete="family-name"
+          class="signup-modal-textinput1 input"
+        /><span id="lastNameWarning" class="signup-modal-text05"
+          >{{ loginUsernameWarning1 }}</span
+        ></div
+      ></div
+    ><div class="signup-modal-container06"
+      ><label for="email" class="signup-modal-text06">{{ signupEmail }}</label
+      ><input
+        type="email"
+        id="email"
+        [attr.placeholder]="textinputPlaceholder12"
+        autocomplete="email"
+        class="signup-modal-textinput2 input"
+      /><span id="emailWarning" class="signup-modal-text07"
+        >{{ loginPasswordWarning2 }}</span
+      ></div
+    ><div class="signup-modal-container07"
+      ><label for="phoneNumber" class="signup-modal-text08"
+        >{{ signupPhoneNumber }}</label
+      ><div class="signup-modal-container08"
+        ><input
+          type="tel"
+          id="countryCode"
+          required="true"
+          [attr.placeholder]="textinputPlaceholder11"
+          autocomplete="tel"
+          class="signup-modal-textinput3 input" /><input
+          type="tel"
+          id="phoneNumber"
+          required="true"
+          [attr.placeholder]="textinputPlaceholder111"
+          autocomplete="tel"
+          class="signup-modal-textinput4 input" /></div
+      ><span id="phoneNumberWarning" class="signup-modal-text09"
+        >{{ loginPasswordWarning1 }}</span
+      ></div
+    ><div class="signup-modal-container09"
+      ><div class="signup-modal-container10"
+        ><label for="signUpPassword" class="signup-modal-text10"
+          >{{ loginUsername1 }}</label
+        ><input
+          type="password"
+          id="signUpPassword"
+          [attr.required]="textinputRequired"
+          [attr.placeholder]="textinputPlaceholder1"
+          class="signup-modal-textinput5 input"
+        /><span id="passwordWarning" class="signup-modal-text11"
+          >{{ loginPasswordWarning }}</span
+        ></div
+      ><div class="signup-modal-container11"
+        ><label for="confirmPassword" class="signup-modal-text12"
+          >{{ signupConfirmPassword }}</label
+        ><input
+          type="password"
+          id="confirmPassword"
+          required="true"
+          [attr.placeholder]="textinputPlaceholder13"
+          class="signup-modal-textinput6 input"
+        /><span id="confirmPasswordWarning" class="signup-modal-text13"
+          >{{ loginPasswordWarning3 }}</span
+        ></div
+      ></div
+    ><div class="signup-modal-container12"
+      ><button type="submit" class="signup-modal-button button"
+        >{{ signupButton }}</button
+      ><span class="signup-modal-text14">{{ author1 }}</span></div
+    ></div
+  ></div
+>

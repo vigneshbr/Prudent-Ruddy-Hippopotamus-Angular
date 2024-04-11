@@ -1,0 +1,429 @@
+:host { 
+  display: contents; 
+}
+.signup-modal-container {
+  width: 100%;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  position: relative;
+  flex-direction: column;
+  background-image: linear-gradient(20deg, rgba(93, 93, 93, 0.6) 7.5%, rgba(61, 61, 61, 0.6) 94.47%);
+}
+.signup-modal-container01 {
+  width: auto;
+  height: auto;
+  display: flex;
+  padding: var(--dl-space-space-twounits);
+  align-self: center;
+  align-items: flex-start;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-image: linear-gradient(20deg, rgba(93, 93, 93, 0.8) 7.5%, rgba(61, 61, 61, 0.8) 94.47%);
+}
+.signup-modal-container02 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+}
+.signup-modal-text {
+  color: var(--dl-color-gray-900);
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: var(--dl-space-space-unit);
+  text-transform: uppercase;
+}
+.signup-modal-icon {
+  fill: #D9D9D9;
+  width: 24px;
+  height: 24px;
+}
+.signup-modal-text01 {
+  color: var(--dl-color-gray-900);
+  align-self: stretch;
+  font-style: normal;
+  font-weight: 500;
+  margin-bottom: var(--dl-space-space-unit);
+}
+.signup-modal-container03 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+}
+.signup-modal-container04 {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-twounits);
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: flex-start;
+}
+.signup-modal-text02 {
+  color: var(--dl-color-gray-900);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.signup-modal-textinput {
+  width: 100%;
+  max-height: auto;
+  min-height: auto;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.signup-modal-text03 {
+  color: var(--dl-color-danger-300);
+  font-size: 22px;
+  align-self: flex-end;
+  font-style: normal;
+  text-align: right;
+  font-weight: 600;
+  background-color: #fbfd09;
+}
+.signup-modal-container05 {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: flex-start;
+}
+.signup-modal-text04 {
+  color: var(--dl-color-gray-900);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.signup-modal-textinput1 {
+  width: 100%;
+  min-height: auto;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.signup-modal-text05 {
+  color: var(--dl-color-danger-300);
+  font-size: 22px;
+  align-self: flex-end;
+  font-style: normal;
+  text-align: right;
+  font-weight: 600;
+  background-color: #fbfd09;
+}
+.signup-modal-container06 {
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-self: center;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-twounits);
+  margin-bottom: 0px;
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: flex-start;
+}
+.signup-modal-text06 {
+  color: var(--dl-color-gray-900);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.signup-modal-textinput2 {
+  width: 100%;
+  min-height: auto;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.signup-modal-text07 {
+  color: #fbfd09;
+  font-size: 22px;
+  align-self: flex-end;
+  text-align: right;
+}
+.signup-modal-container07 {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-twounits);
+  margin-bottom: 0px;
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: flex-start;
+}
+.signup-modal-text08 {
+  color: var(--dl-color-gray-900);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.signup-modal-container08 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.signup-modal-textinput3 {
+  width: 20%;
+  min-height: auto;
+  margin-right: var(--dl-space-space-unit);
+  padding-right: 1rem;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.signup-modal-textinput4 {
+  width: 100%;
+  min-height: auto;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.signup-modal-text09 {
+  font-size: 22px;
+  align-self: flex-end;
+  text-align: right;
+  background-color: #fbfd09;
+}
+.signup-modal-container09 {
+  flex: 0 0 auto;
+  width: 100%;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+}
+.signup-modal-container10 {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-twounits);
+  margin-bottom: 0px;
+  padding-right: var(--dl-space-space-unit);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: flex-start;
+}
+.signup-modal-text10 {
+  color: var(--dl-color-gray-900);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.signup-modal-textinput5 {
+  width: 100%;
+  min-height: auto;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.signup-modal-text11 {
+  color: var(--dl-color-danger-300);
+  font-size: 22px;
+  align-self: flex-end;
+  font-style: normal;
+  text-align: right;
+  font-weight: 600;
+  background-color: #fbfd09;
+}
+.signup-modal-container11 {
+  flex: 1;
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  padding-top: var(--dl-space-space-halfunit);
+  padding-left: var(--dl-space-space-unit);
+  margin-bottom: 0px;
+  padding-right: var(--dl-space-space-twounits);
+  flex-direction: column;
+  padding-bottom: var(--dl-space-space-halfunit);
+  justify-content: flex-start;
+}
+.signup-modal-text12 {
+  color: var(--dl-color-gray-900);
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 700;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.signup-modal-textinput6 {
+  width: 100%;
+  min-height: auto;
+  padding-bottom: var(--dl-space-space-halfunit);
+}
+.signup-modal-text13 {
+  color: var(--dl-color-danger-300);
+  font-size: 22px;
+  align-self: flex-end;
+  font-style: normal;
+  text-align: right;
+  font-weight: 600;
+  background-color: #fbfd09;
+}
+.signup-modal-container12 {
+  width: 100%;
+  display: flex;
+  padding: var(--dl-space-space-unit);
+  align-items: flex-start;
+  flex-direction: column;
+}
+.signup-modal-button {
+  color: var(--dl-color-gray-900);
+  width: 100%;
+  font-size: 24px;
+  min-height: auto;
+  transition: 0.3s;
+  margin-bottom: var(--dl-space-space-halfunit);
+  background-color: var(--dl-color-gray-black);
+}
+.signup-modal-button:hover {
+  transform: scale(1.02);
+}
+.signup-modal-text14 {
+  color: var(--dl-color-gray-900);
+  font-size: 20px;
+  align-self: center;
+  font-weight: 400;
+}
+@media(max-width: 1200px) {
+  .signup-modal-container {
+    padding: var(--dl-space-space-twounits);
+  }
+  .signup-modal-container01 {
+    flex: 1;
+    height: auto;
+    align-items: stretch;
+  }
+  .signup-modal-text01 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .signup-modal-container04 {
+    flex: 1;
+  }
+  .signup-modal-text02 {
+    font-size: 1rem;
+  }
+  .signup-modal-container05 {
+    flex: 1;
+  }
+  .signup-modal-text04 {
+    font-size: 1rem;
+  }
+  .signup-modal-container06 {
+    flex: 0;
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .signup-modal-text06 {
+    font-size: 1rem;
+  }
+  .signup-modal-container07 {
+    flex: 0 0 auto;
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .signup-modal-text08 {
+    font-size: 1rem;
+  }
+  .signup-modal-textinput4 {
+    width: 100%;
+  }
+  .signup-modal-container10 {
+    flex: 1;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-twounits);
+    padding-right: var(--dl-space-space-unit);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .signup-modal-text10 {
+    font-size: 1rem;
+  }
+  .signup-modal-container11 {
+    flex: 1;
+    padding-top: var(--dl-space-space-halfunit);
+    padding-left: var(--dl-space-space-unit);
+    padding-right: var(--dl-space-space-twounits);
+    padding-bottom: var(--dl-space-space-halfunit);
+  }
+  .signup-modal-text12 {
+    font-size: 1rem;
+  }
+  .signup-modal-button {
+    min-height: var(--dl-size-size-xsmall);
+  }
+}
+@media(max-width: 991px) {
+  .signup-modal-text14 {
+    text-align: center;
+  }
+}
+@media(max-width: 767px) {
+  .signup-modal-container01 {
+    width: 100%;
+  }
+  .signup-modal-text {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .signup-modal-text01 {
+    font-size: 1.5em;
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .signup-modal-container04 {
+    margin-bottom: 0px;
+  }
+  .signup-modal-container05 {
+    margin-bottom: 0px;
+  }
+  .signup-modal-container06 {
+    margin-bottom: 0px;
+  }
+  .signup-modal-container07 {
+    margin-bottom: 0px;
+  }
+  .signup-modal-container10 {
+    margin-bottom: 0px;
+  }
+  .signup-modal-container11 {
+    margin-bottom: 0px;
+  }
+  .signup-modal-text14 {
+    font-size: 16px;
+  }
+}
+@media(max-width: 479px) {
+  .signup-modal-container03 {
+    flex-direction: column;
+  }
+  .signup-modal-container04 {
+    margin-bottom: 0px;
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .signup-modal-container05 {
+    padding-left: var(--dl-space-space-twounits);
+    margin-bottom: 0px;
+  }
+  .signup-modal-container09 {
+    flex-direction: column;
+  }
+  .signup-modal-container10 {
+    padding-right: var(--dl-space-space-twounits);
+  }
+  .signup-modal-container11 {
+    padding-left: var(--dl-space-space-twounits);
+  }
+  .signup-modal-text14 {
+    text-align: center;
+  }
+}

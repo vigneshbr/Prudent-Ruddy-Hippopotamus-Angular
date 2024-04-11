@@ -1,0 +1,35 @@
+<div class="login-input-card-blog-post-card" [ngClass]="rootClassName"
+  ><img
+    [attr.alt]="imageAlt"
+    [attr.src]="imageSrc"
+    class="login-input-card-image"
+  /><div class="login-input-card-container"
+    ><div class="login-input-card-container1"
+      ><label for="username" class="login-input-card-text"
+        >{{ loginUsername }}</label
+      ><input
+        type="email"
+        id="username"
+        [attr.placeholder]="textinputPlaceholder"
+        class="login-input-card-textinput input"
+      /><span id="usernameWarning" class="login-input-card-text1"
+        >{{ loginUsernameWarning }}</span
+      ></div
+    ><div class="login-input-card-container2"
+      ><label for="password" class="login-input-card-text2"
+        >{{ loginUsername1 }}</label
+      ><input
+        type="password"
+        id="password"
+        [attr.placeholder]="textinputPlaceholder1"
+        class="login-input-card-textinput1 input"
+      /><span id="passwordWarning" class="login-input-card-text3"
+        >{{ loginPasswordWarning }}</span
+      ></div
+    ><div class="login-input-card-container3"
+      ><button type="submit" class="login-input-card-button button"
+        >{{ loginButton }}</button
+      ><span class="login-input-card-text4">{{ author }}</span></div
+    ></div
+  ></div
+>
